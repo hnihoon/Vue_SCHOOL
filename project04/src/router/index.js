@@ -19,7 +19,28 @@ const routes = [
     path: '/welcome',
     name: 'welcome',
     component: () => import(/* webpackChunkName: "about" */ '../views/WelcomeView.vue')
+  },
+  {
+    path: '/databinding/string',
+    name: 'DataBindingStringView',
+    component: () => import(/* webpackChunkName: "databinding", webpackPrefetch:true */ '../views/1_Databinding/DataBindingStringView.vue')
+  },
+  {
+    path: '/databinding/html',
+    name: 'DataBindingHtmlView',
+    component: () => import(/* webpackChunkName: "databinding", webpackPrefetch:true */ '../views/1_Databinding/DataBindingHtmlView.vue')
+  },
+  {
+    path: '/databinding/input',
+    name: 'DataBindingInputView',
+    component: () => import(/* webpackChunkName: "databinding", webpackPrefetch:true */ '../views/1_Databinding/DataBindingInputView.vue')
+  },
+  {
+    path: '/databinding/attr',
+    name: 'DataBindingAttributeView',
+    component: () => import(/* webpackChunkName: "databinding", webpackPrefetch:true */ '../views/1_Databinding/DataBindingAttributeView.vue')
   }
+
 ]
 
 const router = createRouter({
