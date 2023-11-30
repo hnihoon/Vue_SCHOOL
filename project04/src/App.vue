@@ -6,7 +6,11 @@
     <router-link to="/databinding/string">String</router-link> |
     <router-link to="/databinding/html">Html</router-link> |
     <router-link to="/databinding/input">input</router-link> |
-    <router-link to="/databinding/attr">attribute</router-link>
+    <router-link to="/databinding/attr">attribute</router-link> |
+    <router-link to="/event/list">List</router-link> |
+    <router-link to="/event/click">click</router-link> |
+    <router-link to="/event/change">Change</router-link> |
+    <router-link to="/event/key">key</router-link>
   </nav>
   <router-view/>
 </template>
