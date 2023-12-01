@@ -59,6 +59,11 @@ const routes = [
     path: '/event/key',
     name: 'EventKeyView',
     component: () => import(/* webpackChunkName: "event", webpackPrefetch:true */ '../views/2_event/EventKeyView.vue')
+  },
+  {
+    path: '/memo/list',
+    name: 'MemoList',
+    component: () => import(/* webpackChunkName: "memo", webpackPrefetch:true */ '../views/3_memo/MemoListView.vue')
   }
 
 ]

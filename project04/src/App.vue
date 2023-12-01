@@ -10,7 +10,8 @@
     <router-link to="/event/list">List</router-link> |
     <router-link to="/event/click">click</router-link> |
     <router-link to="/event/change">Change</router-link> |
-    <router-link to="/event/key">key</router-link>
+    <router-link to="/event/key">key</router-link> |
+    <router-link to="/memo/list">memo</router-link>
   </nav>
   <router-view/>
 </template>
